@@ -96,51 +96,9 @@ The agent goes beyond basic schema visualization. It interprets your database li
 
 ---
 
-<!-- ## 🚀 Getting Started
 
-### Option 1: Run Online (Instant, No Setup)
-Open the artifact directly in your browser — no installation needed.
 
-### Option 2: Run Locally
 
-**Prerequisites**
-- Node.js 18+
-- An AI API key (see setup step 4)
-
-**Steps**
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/ai-database-intelligence-agent.git
-cd ai-database-intelligence-agent
-
-# 2. Create a Vite + React project
-npm create vite@latest . -- --template react
-npm install
-
-# 3. Copy the component
-cp db-intelligence-agent-v2.jsx src/App.jsx
-
-# 4. Add your API key
-# In src/App.jsx, find the askAI function and add headers: -->
-<!-- ```
-
-```js
-headers: {
-  "Content-Type": "application/json",
-  "x-api-key": "YOUR_AI_API_KEY",
-  "ai-version": "2023-06-01",
-  "ai-dangerous-direct-browser-access": "true",
-},
-```
-
-```bash
-# 5. Run
-npm run dev
-# Open http://localhost:5173
-```
-
---- -->
 
 ## 🛠️ Tech Stack
 
@@ -213,34 +171,3 @@ Schema      API
 
 ---
 
-<!-- ## 🤝 Contributing
-
-Contributions are welcome! Please open an issue first to discuss what you'd like to change.
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push and open a Pull Request
-
---- -->
-<!-- 
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-The Olist dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
----
-
-## 🙏 Acknowledgements
-
-- [Olist](https://olist.com) for the open e-commerce dataset
-- The AI API for powering intelligent database analysis
-- Built as part of the **AI Database Intelligence Agent** hackathon objective
-
---- -->
-
-<div align="center">
-  <strong>Built with 🧠 AI + ⚛️ React</strong><br/>
-  <sub>Turning raw schemas into business intelligence, automatically.</sub>
-</div>
